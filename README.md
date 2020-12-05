@@ -11,6 +11,8 @@ Take part at [Advent of Code website](https://adventofcode.com/)
 1. Write resolutions of the current day's task,
 1. Add newly created file to index.html.
 
+![Example](./assets/example.png);
+
 ## Editing
 
 There aro no special requirements for editing on your own. Just a sass compiler might be helpful if you don't want to mess with pure css. 
