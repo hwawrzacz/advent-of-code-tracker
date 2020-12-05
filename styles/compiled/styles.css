@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .1s;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f23;
+  color: #cccccc;
+}
+
+::selection {
+  background-color: #009900;
+  color: #cccccc;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  width: 100%;
+  font-size: 1.5em;
+}
+
+header h1 span {
+  color: #bb0000;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+header a {
+  text-align: right;
+  color: #00cc00;
+  text-shadow: 0 0 2px #00cc00;
+}
+
+header a:hover {
+  color: #99ff99;
+  text-shadow: 0 0 5px #00cc00;
+}
+
+main {
+  width: auto;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 32px 16px 16px 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  margin: 8px;
+  padding: 16px;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1e1e47;
+  border-radius: 6px;
+  cursor: default;
+}
+
+main section:hover {
+  border-color: #2e2e6a;
+  box-shadow: 0 0 10px -5px #2e2e6a;
+}
+
+main section:hover h3 {
+  color: #00cc00;
+  text-shadow: 0 0 2px #00cc00;
+}
+
+main section h3 {
+  margin-bottom: 16px;
+  text-align: center;
+  color: #009900;
+}
+
+main section p > span {
+  display: block;
+  width: auto;
+  margin-bottom: 8px;
+}
+
+main section p > span span {
+  font-weight: bold;
+  cursor: text;
+}
+/*# sourceMappingURL=styles.css.map */
