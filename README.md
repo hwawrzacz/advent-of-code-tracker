@@ -1,6 +1,6 @@
 # Advent of Code - code calendar
 
-This is a small project that oragnizes your journey through *Advent of Code* if you write it in JavaScript. Keep all your results in one place, as a great memory of the challenge.
+This is a small and ultra-simple project that keeps track your journey through **Advent of Code** (only if you code in JavaScript). Keep all your results in one place on design-consistently (local) website, as a great memory of the challenge.
 
 Take part at [Advent of Code website](https://adventofcode.com/)
 
