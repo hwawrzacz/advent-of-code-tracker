@@ -11,7 +11,7 @@ Take part at [Advent of Code website](https://adventofcode.com/)
 1. Write resolutions of the current day's task,
 1. Add newly created file to index.html.
 
-![Example](./assets/example.png);
+![Example](./assets/example.png)
 
 ## Editing
 
